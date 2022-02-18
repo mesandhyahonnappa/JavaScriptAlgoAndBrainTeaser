@@ -1,0 +1,14 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "A coding interview questions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "sandhyahonnappa",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
