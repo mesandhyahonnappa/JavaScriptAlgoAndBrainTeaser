@@ -12,11 +12,13 @@ test("circular detects circular linked lists", () => {
   const a = new Node("a");
   const b = new Node("b");
   const c = new Node("c");
+  const d = new Node("d");
 
   l.head = a;
   a.next = b;
   b.next = c;
-  c.next = b;
+  c.next = d;
+  d.next = b;
 
   expect(circular(l)).toEqual(true);
 });
